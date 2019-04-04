@@ -1,0 +1,20 @@
+For the array size of 10^4:
+
+NORMAL_MERGESORT_OUTPUT:
+real	0m0.016s
+user	0m0.012s
+sys	0m0.004s
+
+CONCURRENT_MERGESORT_OUTPUT
+real	0m0.291s
+user	0m0.952s
+sys	0m0.101s
+
+THREADED_MERGESORT_OUTPUT
+real	0m0.147s
+user	0m0.033s
+sys	0m0.257s
+
+
+From the above result we can conclude that the normal merge sort is the fastest followed by the
+threaded merge sort and then concurrent_merge_sort.
